@@ -1,10 +1,5 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
-import 'rxjs/add/observable/map';
-import 'rxjs/add/operator/tap';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/map';
-import { of } from 'rxjs/observable/of';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-root',
